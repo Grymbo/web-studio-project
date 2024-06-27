@@ -3,7 +3,9 @@
     --raleway: "Raleway", sans-serif;
 
     /***Colores***/
-    --azul: #2196F3;
+    --azulito: #2196F3;
+    --oscuro: #212121;
+    --grisClaro: #757575;
 }
 /**************** Generales ***************************/
 html {
@@ -48,7 +50,7 @@ h3 {
 .navegacion_webstudio_logo {
     font-family: var(--raleway);
     font-weight: bold;
-    color: var(--azul);
+    color: var(--azulito);
     font-size: 2.6rem;
     width: 15rem;
     height: 3rem;
@@ -62,4 +64,28 @@ h3 {
 }
 .navegacion_celda3 {
     grid-column: 4;
+}
+.navegacion a {
+    text-decoration: none;
+    font-weight: 500;
+    line-height: 1.6rem;
+    margin-top: 3.4rem;
+    color: var(--oscuro);
+}
+.navegacion a:hover {
+    color: var(--azulito);
+}
+.navegacion_a3 {
+    display: flex;
+    justify-content: space-between;
+}
+.navegacion_a3 a {
+    text-decoration: none;
+    font-weight: 500;
+    line-height: 1.6rem;
+    margin-top: 3.4rem;
+    color: var(--grisClaro);
+}
+.navegacion_a3 a:hover {
+    color: var(--azulito);
 }
