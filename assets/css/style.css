@@ -37,6 +37,14 @@ h3 {
     text-align: center;
 }
 
+/*------------------------------------- Utilidades ------------------------------*/
+.flex {
+    display: flex;
+}
+.alinear {
+    justify-content: center;
+}
+
 /***************** Navegacion ************************/
 .navegacion_principal {
     display: grid;
@@ -108,3 +116,16 @@ h3 {
     display: flex;
     justify-content: center;
 }
+.header_boton {
+    background-color: var(--azulito);
+    border-radius: 0.4rem;
+    color: var(--claro);
+    font-weight: bold;
+    text-align: center;
+    line-height: 3rem;
+    height: 5rem;
+    width: 26rem;
+    margin-top: 3rem;
+    cursor: pointer;
+}
+
