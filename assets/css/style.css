@@ -1,0 +1,65 @@
+:root {
+    /*Tipografia*/
+    --raleway: "Raleway", sans-serif;
+
+    /***Colores***/
+    --azul: #2196F3;
+}
+/**************** Generales ***************************/
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+body {
+    font-size: 16px; /***** 10px = 1rem****/
+    font-family: "Roboto", sans-serif;
+}
+*, *:before, *:after {
+    box-sizing: inherit;/*****hack para arreglar box*****/
+}
+.contenedor {
+    max-width: 120rem;
+    margin: 0 auto;
+}
+h1{
+    font-size: 4.4rem;
+}
+h2{
+    font-size: 3.6rem;
+}
+h1,
+h2,
+h3 {
+    text-align: center;
+}
+
+/***************** Navegacion ************************/
+.navegacion_principal {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+.navegacion_webstudio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.navegacion_webstudio_logo {
+    font-family: var(--raleway);
+    font-weight: bold;
+    color: var(--azul);
+    font-size: 2.6rem;
+    width: 15rem;
+    height: 3rem;
+}
+.navegacion {
+    display: flex;
+    justify-content: space-between;
+}
+.navegacion_celda2 {
+    grid-column: 2;
+}
+.navegacion_celda3 {
+    grid-column: 4;
+}
