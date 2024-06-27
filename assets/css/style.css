@@ -6,6 +6,8 @@
     --azulito: #2196F3;
     --oscuro: #212121;
     --grisClaro: #757575;
+    --oscuroClaro: #2F303A;
+    --claro: #FFFFFF;
 }
 /**************** Generales ***************************/
 html {
@@ -88,4 +90,21 @@ h3 {
 }
 .navegacion_a3 a:hover {
     color: var(--azulito);
+}
+
+/*----------------------- Header -----------------------------*/
+.header {
+    max-width: 0 auto;
+    background-color: var(--oscuroClaro);
+    height: 60rem;
+}
+.header h1 {
+    font-weight: 900;
+    line-height: 6rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--claro);
+    padding-top: 22rem;
+    display: flex;
+    justify-content: center;
 }
