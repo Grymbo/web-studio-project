@@ -8,6 +8,7 @@
     --grisClaro: #757575;
     --oscuroClaro: #2F303A;
     --claro: #FFFFFF;
+    --grisSuperClaro: #F5F4FA;
 }
 /**************** Generales ***************************/
 html {
@@ -105,6 +106,7 @@ h3 {
     max-width: 0 auto;
     background-color: var(--oscuroClaro);
     height: 60rem;
+    margin-top: -2.5rem;
 }
 .header h1 {
     font-weight: 900;
@@ -153,5 +155,9 @@ main h2 {
     font-weight: bold;
     line-height: 4.2rem;
     color: var(--oscuro);
+}
+.dedicamos_flex {
+    display: flex;
+    justify-content: space-between;
 }
 
