@@ -161,3 +161,49 @@ main h2 {
     justify-content: space-between;
 }
 
+/*------------------------- Nuestro Equipo ----------------------------------*/
+.equipo_geneneral {
+    background-color: var(--grisSuperClaro);
+    height: 65rem;
+    padding: 6rem 0;
+    margin: 7rem auto -2rem auto;
+}
+.equipo_geneneral h2 {
+    font-weight: bold;
+    line-height: 4.2rem;
+    color: var(--oscuro);
+}
+.equipo_flex {
+    display: flex;
+    justify-content: space-between;
+}
+.imagen_equipo {
+    width: 27rem;
+    height: 26rem;
+}
+.equipo_card {
+    width: 27rem;
+    height: 37rem;
+    border-radius: 0 0 0.4rem 0.4rem;
+    background-color: var(--claro);
+    -webkit-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.16);
+    -moz-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.16);
+    box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.16);
+}
+.equipo_nombre {
+    font-weight: 500;
+    line-height: 1.9rem;
+    text-align: center;
+    color: var(--oscuro);
+}
+.equipo_job {
+    font-weight: 400;
+    line-height: 1.9rem;
+    text-align: center;
+    color: var(--grisClaro);
+}
+footer {
+    margin: 0 auto;
+    height: 25rem;
+    background-color: var(--oscuroClaro);
+}
